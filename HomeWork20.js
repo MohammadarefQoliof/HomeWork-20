@@ -58,40 +58,40 @@ if(+year < 0){
 let monthNum = prompt("İstədiyiniz ədədi daxil edin")
 switch (monthNum) {
     case "1":
-        month = "Yanvar"
+        console.log("Yanvar");
     break;
     case "2":
-        month = "Fevral"
+        console.log("Fevral");
     break;
     case "3":
-        month = "Mart"
+        console.log("Mart");
     break;
     case "4":
-        month = "Aprel"
+        console.log("Aprel");
     break;
     case "5":
-        month = "May"
+        console.log("May");
     break;
     case "6":
-        month = "İyun"
+        console.log("İyun");
     break;
     case "7":
-        month = "İyul"
+        console.log("İyul");
     break;
     case "8":
-        month = "August"
+        console.log("August");
     break;
     case "9":
-        month = "Sentyabr"
+        console.log("Sentyabr");
     break;
     case "10":
-        month = "Oktyabr"
+        console.log("Oktyabr");
     break;
     case "11":
-        month = "Noyabr"
+        console.log("Noyabr");
     break;    
     case "12":
-        month = "Dekabr"
+        console.log("Dekabr");
     break;
     default:
         console.log("Ay 12-dən çox və ya az olmamalıdır");
